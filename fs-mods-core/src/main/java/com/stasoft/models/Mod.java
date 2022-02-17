@@ -2,13 +2,13 @@ package com.stasoft.models;
 
 import com.stasoft.enums.Games;
 import com.stasoft.enums.TagGroup;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.Date;
 
-@Data
+@Getter
+@Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Mod {
